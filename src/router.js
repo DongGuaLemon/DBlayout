@@ -1,8 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import create from './views/create.vue'
+import input from './views/input.vue'
 import del from './views/delete.vue'
 import home from './views/home.vue'
+import create from './views/create.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -13,9 +14,9 @@ export default new Router({
       component:home
     },
     {
-      path: '/create',
-      name: 'create',
-      component: create
+      path: '/input',
+      name: 'input',
+      component: input
     },
     {
       path: '/selectpage',
@@ -29,6 +30,11 @@ export default new Router({
       path:'/delpage',
       name:'delpage',
       component:del
+    },
+    {
+      path:'/create',
+      name:'create',
+      component:create
     }
   ]
 })

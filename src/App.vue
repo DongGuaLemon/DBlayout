@@ -12,8 +12,9 @@
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
           <b-navbar-nav>
+            <b-nav-item to="/input">新增</b-nav-item>
+            <b-nav-item to="/create">創立</b-nav-item>
             <b-nav-item to="/selectpage">查詢</b-nav-item>
-            <b-nav-item to="/create">新增</b-nav-item>
             <b-nav-item to="/delpage">刪除</b-nav-item>
           </b-navbar-nav>
           </b-navbar-nav>
